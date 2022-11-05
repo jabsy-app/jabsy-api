@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3WKHgUv64U92SdmNF5iGwDEEgLzYl5sgnYbYzm+hVMU=",
+  "Source": "jabsy-api",
+  "BasePath": "_content/jabsy-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
