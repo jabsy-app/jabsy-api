@@ -20,14 +20,6 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x
-    - name: Setup PostgreSQL
-      uses: Harmon758/postgresql-action@v1.0.0
-      with:
-        postgresql version: 15
-        postgresql db: jabsyuserdb
-        postgresql user: postgres
-        postgresql password: pwd
-        postgresql table: users (id PRIMARY SERIAL KEY, name varchar(255), status varchar(255), profilepicture text, hero text, email varchar(255), password varchar(255), privatekey varchar(255), publickey varchar(255))
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
